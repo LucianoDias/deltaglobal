@@ -1,63 +1,22 @@
-# CodeIgniter 4 Application Starter
+# CodeIgniter 4 Application 
 
-## What is CodeIgniter?
+## Como instalar o projeto ?
+O projeto foi feito na liguangem de programação php , utilizando o framework CodeIgniter Version 4 com banco de dasos mysql e bootstrap.4
+Uma tela de login para acessar o sistema , e uma tela de registro de usúaro, sendo o usúario que faz o cadastro dos alunos.
+Após fazer login o úsuario poderá inserir um novo aluno , atualizar e excluir .
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+## arquivos principais do projeto  ?
+-> controller  Auth,DashBoardController, StudentController,
+-> Models  UsersModel , StudentsModel
+->  Magrations AddUser AddStudent
+-> Views grupos de views .
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Como instalar o projeto em uma maquina local  ?
+1 passo  clona o repositorio 
+2 passo Cria um banco de dados 
+3 passo configura o .env ou Database.php com a configração do  banco.
+4 passo  Roda o comado php spark migrate .
+5 passo Roda o comado php spark serve 
+__________________________________________________________
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.3 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
