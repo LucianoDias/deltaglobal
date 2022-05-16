@@ -13,7 +13,7 @@ Após fazer login o úsuario poderá inserir um novo aluno , atualizar e excluir
 
 ## Como instalar o projeto em uma maquina local  ?
 1 passo  clona o repositorio <br>
-2 passo Cria um banco de dados 
+2 passo Cria um banco de dados  <br>
 3 passo configura o .env ou Database.php com a configração do  banco.
 4 passo  Roda o comado php spark migrate .
 5 passo composer install
