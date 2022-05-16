@@ -16,7 +16,7 @@ Após fazer login o úsuario poderá inserir um novo aluno , atualizar e excluir
 2 passo Cria um banco de dados  <br>
 3 passo configura o .env ou Database.php com a configração do  banco.
 4 passo  Roda o comado php spark migrate .
-5 passo composer install
+5 passo composer insta
 6 passo Roda o comado php spark serve 
 __________________________________________________________
 
