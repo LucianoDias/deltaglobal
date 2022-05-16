@@ -1,5 +1,7 @@
 # CodeIgniter 4 Application 
 
+link  para web http://projeto.pixelp.com.br/public/
+
 ## Como instalar o projeto ?
 O projeto foi feito na liguangem de programação php , utilizando o framework CodeIgniter Version 4 com banco de dasos mysql e bootstrap.4
 Uma tela de login para acessar o sistema , e uma tela de registro de usúaro, sendo o usúario que faz o cadastro dos alunos.
