@@ -6,17 +6,17 @@ Uma tela de login para acessar o sistema , e uma tela de registro de usúaro, se
 Após fazer login o úsuario poderá inserir um novo aluno , atualizar e excluir .
 
 ## arquivos principais do projeto  ?
--> controller  Auth,DashBoardController, StudentController,
--> Models  UsersModel , StudentsModel
-->  Magrations AddUser AddStudent
--> Views grupos de views .
+-> controller  Auth,DashBoardController, StudentController,<br>
+-> Models  UsersModel , StudentsModel<br>
+->  Magrations AddUser AddStudent<br>
+-> Views grupos de views .<br>
 
 ## Como instalar o projeto em uma maquina local  ?
 1 passo  clona o repositorio <br>
 2 passo Cria um banco de dados  <br>
-3 passo configura o .env ou Database.php com a configração do  banco.
-4 passo  Roda o comado php spark migrate .
-5 passo composer insta
+3 passo configura o .env ou Database.php com a configração do  banco.<br>
+4 passo  Roda o comado php spark migrate .<br>
+5 passo composer install <br>
 6 passo Roda o comado php spark serve 
 __________________________________________________________
 
